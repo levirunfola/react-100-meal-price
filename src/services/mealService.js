@@ -67,6 +67,6 @@ export const searchRecipeWithPrices = async (query) => {
 
   } catch (error) {
     console.error("API Fetch ERROR:", error);
-    return []; // 🌟 THIS GUARANTEES APP.JSX NEVER SEES UNDEFINED
+    return [];
   }
 };

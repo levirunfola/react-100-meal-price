@@ -170,7 +170,7 @@ const handleOpenView = (id) => {
       {  openView.id==='map'&&openView.open===true?(
       <div id="mapBody">
         <h2 id="title">Map</h2>
-         <iframe id ="map" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d106292.97452654278!2d-117.40005334399015!3d33.640174583383114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1swalmarts%20near%20me!5e0!3m2!1sen!2sus!4v1780003318137!5m2!1sen!2sus" style={{ style:"border:0", allowFullScreen:'', loading: "lazy", referrerPolicy: "no-referrer-when-downgrade"}}></iframe>
+         <iframe id ="map" src="https://www.google.com/maps/18" style={{ style:"border:0", allowFullScreen:'', loading: "lazy", referrerPolicy: "no-referrer-when-downgrade"}}></iframe>
       </div>
       ):(
           <div id="body" > 
